@@ -22,3 +22,17 @@ h1 {
     gap: 10px; /* Add 10px of space between choice buttons */
     margin-bottom: 20px; /* Add some space at the bottom of the choices container */
 }
+/* Styling for the choice buttons */
+.choice {
+    font-size: 16px; /* Set the font size for choice buttons */
+    padding: 10px 20px; /* Add padding around the text within choice buttons */
+    background-color: #3498db; /* Set the background color of choice buttons to a shade of blue (#3498db) */
+    color: #fff; /* Set the text color within choice buttons to white (#fff) */
+    border: none; /* Remove borders around choice buttons */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over choice buttons */
+}
+
+/* Hover effect for choice buttons */
+.choice:hover {
+    background-color: #2980b9; /* Darken the background color of choice buttons on hover */
+}
