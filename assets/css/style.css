@@ -49,3 +49,18 @@ h1 {
     font-size: 18px; /* Set the font size for the game score */
     font-weight: bold; /* Make the game score text bold */
 }
+/* Styling for the "Play Again" button */
+.playAgainButton {
+    font-size: 16px; /* Set the font size for the "Play Again" button */
+    padding: 10px 20px; /* Add padding around the text within the button */
+    background-color: #27ae60; /* Set the background color of the button to a shade of green (#27ae60) */
+    color: #fff; /* Set the text color within the button to white (#fff) */
+    border: none; /* Remove borders around the button */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+    margin-top: 20px; /* Add some space at the top of the button */
+}
+
+/* Hover effect for the "Play Again" button */
+.playAgainButton:hover {
+    background-color: #219d54; /* Darken the background color of the button on hover */
+}
