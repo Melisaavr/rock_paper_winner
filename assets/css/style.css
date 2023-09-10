@@ -8,3 +8,17 @@ body {
 h1 {
     color: #333; /* Set the text color of the title to a dark gray (#333) */
 }
+/* Styling for the game container */
+.game {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center-align child elements horizontally */
+    margin-top: 20px; /* Add some space at the top of the game container */
+}
+
+/* Styling for the game choices container */
+.choices {
+    display: flex; /* Use flexbox to arrange choices horizontally */
+    gap: 10px; /* Add 10px of space between choice buttons */
+    margin-bottom: 20px; /* Add some space at the bottom of the choices container */
+}
