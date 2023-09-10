@@ -36,3 +36,16 @@ h1 {
 .choice:hover {
     background-color: #2980b9; /* Darken the background color of choice buttons on hover */
 }
+
+/* Styling for the result text */
+.resultText {
+    font-size: 20px; /* Set the font size for result text */
+    font-weight: bold; /* Make the result text bold */
+    margin-bottom: 10px; /* Add some space at the bottom of the result text */
+}
+
+/* Styling for the game score display */
+.score {
+    font-size: 18px; /* Set the font size for the game score */
+    font-weight: bold; /* Make the game score text bold */
+}
