@@ -101,4 +101,29 @@ const playAgainButton = document.getElementById("playAgain");
 playAgainButton.addEventListener("click", () => {
     resetGame();
 });
+// Function to reset the game state
+function resetGame() {
+    playerScore = 0;
+    computerScore = 0;
+    currentRound = 1;
+    gameOver = false;
+
+    const resultText = document.querySelector(".resultText");
+    const scoreDisplay = document.getElementById("score");
+    const buttons = document.querySelectorAll(".choice");
+    const playAgainButton = document.getElementById("playAgain");
+    const computerChoiceDisplay = document.querySelector(".computerChoice");
+
+    // Reset text and display elements to their initial state
+    resultText.textContent = "Make your choice...";
+    scoreDisplay.textContent = "0 - 0";
+    computerChoiceDisplay.textContent = "";
+
+    // Enable choice buttons and hide the "Play Again" button
+    buttons.forEach(button => {
+        button.disabled = false;
+    });
+
+    playAgainButton.style.display = "none";
+}
 
