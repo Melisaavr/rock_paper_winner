@@ -15,3 +15,15 @@ function computerChoice() {
     const randomIndex = Math.floor(Math.random() * choices.length);
     return choices[randomIndex];
 }
+
+// Function to play a round of the game
+function playGame(playerChoice) {
+    if (gameOver) return;
+
+    const computer = computerChoice();
+    const resultText = document.querySelector(".resultText");
+    const computerChoiceDisplay = document.querySelector(".computerChoice");
+    const scoreDisplay = document.getElementById("score");
+
+    // Display the computer's choice
+    computerChoiceDisplay.textContent = `Computer chose ${computer}.`;
