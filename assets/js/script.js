@@ -26,4 +26,21 @@ function playGame(playerChoice) {
     const scoreDisplay = document.getElementById("score");
 
     // Display the computer's choice
-    computerChoiceDisplay.textContent = `Computer chose ${computer}.`;
+    computerChoiceDisplay.textContent = `Computer chose ${computer}.`;}
+
+    // Determine the round result
+    if (playerChoice === computer) {
+        resultText.textContent = "It's a tie!";
+    } else if (
+        (playerChoice === "rock" && (computer === "scissors" || computer === "lizard")) ||
+        (playerChoice === "paper" && (computer === "rock" || computer === "spock")) ||
+        (playerChoice === "scissors" && (computer === "paper" || computer === "lizard")) ||
+        (playerChoice === "lizard" && (computer === "spock" || computer === "paper")) ||
+        (playerChoice === "spock" && (computer === "rock" || computer === "scissors"))
+    ) {
+        resultText.textContent = `You win!`;
+        playerScore++;
+    } else {
+        resultText.textContent = `Computer wins!`;
+        computerScore++;
+    }
