@@ -44,3 +44,17 @@ function playGame(playerChoice) {
         resultText.textContent = `Computer wins!`;
         computerScore++;
     }
+    // Update and display the score
+    scoreDisplay.textContent = `${playerScore} - ${computerScore}`;
+    currentRound++;
+
+    // If the game is not over, reset the text and choices for the next round after a delay
+    if (currentRound <= 3) {
+        setTimeout(() => {
+            resultText.textContent = "Make your choice...";
+            computerChoiceDisplay.textContent = "";
+        }, 3000); // Delay for 3 seconds
+    } else {
+        // If the game is over, call the endGame function
+        endGame();
+    }
