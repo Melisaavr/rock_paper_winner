@@ -58,3 +58,47 @@ function playGame(playerChoice) {
         // If the game is over, call the endGame function
         endGame();
     }
+    // Function to handle the end of the game
+function endGame() {
+    const resultText = document.querySelector(".resultText");
+    const buttons = document.querySelectorAll(".choice");
+    const playAgainButton = document.getElementById("playAgain");
+    const computerChoiceDisplay = document.querySelector(".computerChoice");
+
+    // Determine the game result and display it
+    if (playerScore > computerScore) {
+        resultText.textContent = "Game over. You win!";
+    } else if (playerScore < computerScore) {
+        resultText.textContent = "Game over. Computer wins!";
+    } else {
+        resultText.textContent = "Game over. It's a tie!";
+    }
+}
+    // Disable choice buttons after the game is over
+    buttons.forEach(button => {
+        button.disabled = true;
+    });
+
+    // Show the "Play Again" button and set the game state to "gameOver"
+    playAgainButton.style.display = "block";
+    gameOver = true;
+
+    // Display the computer's choice in the last round
+    computerChoiceDisplay.textContent = `Computer chose ${computerChoice()} in the last round.`;
+// Add click event listeners to choice buttons to play the game
+const buttons = document.querySelectorAll(".choice");
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+        // Play a round of the game if it's not over and the button is clicked
+        if (currentRound <= 3 && !gameOver) {
+            playGame(button.id);
+        }
+    });
+});
+
+// Add a click event listener to the "Play Again" button to reset the game
+const playAgainButton = document.getElementById("playAgain");
+playAgainButton.addEventListener("click", () => {
+    resetGame();
+});
+
