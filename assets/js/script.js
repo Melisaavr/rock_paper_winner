@@ -26,7 +26,7 @@ function playGame(playerChoice) {
     const scoreDisplay = document.getElementById("score");
 
     // Display the computer's choice
-    computerChoiceDisplay.textContent = `Computer chose ${computer}.`;}
+    computerChoiceDisplay.textContent = `Computer chose ${computer}.`;
 
     // Determine the round result
     if (playerChoice === computer) {
@@ -44,6 +44,7 @@ function playGame(playerChoice) {
         resultText.textContent = `Computer wins!`;
         computerScore++;
     }
+
     // Update and display the score
     scoreDisplay.textContent = `${playerScore} - ${computerScore}`;
     currentRound++;
@@ -58,14 +59,15 @@ function playGame(playerChoice) {
         // If the game is over, call the endGame function
         endGame();
     }
-    // Function to handle the end of the game
+}
+
+// Function to handle the end of the game
 function endGame() {
     const resultText = document.querySelector(".resultText");
     const buttons = document.querySelectorAll(".choice");
     const playAgainButton = document.getElementById("playAgain");
     const computerChoiceDisplay = document.querySelector(".computerChoice");
 
-    // Determine the game result and display it
     if (playerScore > computerScore) {
         resultText.textContent = "Game over. You win!";
     } else if (playerScore < computerScore) {
@@ -73,7 +75,7 @@ function endGame() {
     } else {
         resultText.textContent = "Game over. It's a tie!";
     }
-}
+
     // Disable choice buttons after the game is over
     buttons.forEach(button => {
         button.disabled = true;
@@ -83,8 +85,9 @@ function endGame() {
     playAgainButton.style.display = "block";
     gameOver = true;
 
-    // Display the computer's choice in the last round
     computerChoiceDisplay.textContent = `Computer chose ${computerChoice()} in the last round.`;
+}
+
 // Add click event listeners to choice buttons to play the game
 const buttons = document.querySelectorAll(".choice");
 buttons.forEach(button => {
@@ -101,6 +104,7 @@ const playAgainButton = document.getElementById("playAgain");
 playAgainButton.addEventListener("click", () => {
     resetGame();
 });
+
 // Function to reset the game state
 function resetGame() {
     playerScore = 0;
@@ -114,16 +118,13 @@ function resetGame() {
     const playAgainButton = document.getElementById("playAgain");
     const computerChoiceDisplay = document.querySelector(".computerChoice");
 
-    // Reset text and display elements to their initial state
     resultText.textContent = "Make your choice...";
     scoreDisplay.textContent = "0 - 0";
     computerChoiceDisplay.textContent = "";
 
-    // Enable choice buttons and hide the "Play Again" button
     buttons.forEach(button => {
         button.disabled = false;
     });
 
     playAgainButton.style.display = "none";
 }
-

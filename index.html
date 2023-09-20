@@ -1,50 +1,53 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Declaration of HTML5 document type -->
+
 <html>
+<!-- Root HTML element -->
 
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Link to an external CSS stylesheet for styling the page -->
 </head>
 
 <body>
-    <!-- Page title displayed as a top-level heading -->
     <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+    <!-- Heading for the game title -->
 
-    <!-- Container for the game elements -->
     <div class="game">
-
-        <!-- Container for the game choices (Rock, Paper, Scissors, Lizard, Spock) -->
+        <!-- Container for the entire game -->
         <div class="choices">
-            <!-- Button for choosing "Rock" -->
+            <!-- Container for the game choices (Rock, Paper, Scissors, Lizard, Spock) -->
             <button class="choice" id="rock">Rock</button>
-            <!-- Button for choosing "Paper" -->
+            <!-- Button for choosing "Rock" -->
             <button class="choice" id="paper">Paper</button>
-            <!-- Button for choosing "Scissors" -->
+            <!-- Button for choosing "Paper" -->
             <button class="choice" id="scissors">Scissors</button>
-            <!-- Button for choosing "Lizard" -->
+            <!-- Button for choosing "Scissors" -->
             <button class="choice" id="lizard">Lizard</button>
-            <!-- Button for choosing "Spock" -->
+            <!-- Button for choosing "Lizard" -->
             <button class="choice" id="spock">Spock</button>
+            <!-- Button for choosing "Spock" -->
         </div>
 
-        <!-- Container for displaying the game result -->
         <div class="result">
-            <!-- Placeholder text indicating that the player should make a choice -->
+            <!-- Container for displaying the game result -->
             <p class="resultText">Make your choice...</p>
-            <!-- Container for displaying the computer's choice -->
+            <!-- Placeholder text for user instructions -->
             <p class="computerChoice"></p>
+            <!-- Placeholder for displaying the computer's choice -->
         </div>
 
-        <!-- Container for displaying the game score -->
         <div class="score">
-            <!-- Text indicating the game score with initial value "0 - 0" -->
+            <!-- Container for displaying the game score -->
             <p>Score: <span id="score">0 - 0</span></p>
+            <!-- Initial score display -->
         </div>
 
-        <!-- Button for playing the game again -->
         <button class="playAgainButton" id="playAgain">Play Again</button>
+        <!-- Button to restart the game -->
     </div>
 
     <script src="assets/js/script.js"></script>
+    <!-- Include an external JavaScript file for game logic -->
 </body>
 
 </html>
