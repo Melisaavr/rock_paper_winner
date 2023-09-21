@@ -1,7 +1,8 @@
 /* Set the font family for the entire page to Arial or a sans-serif font */
 body {
     font-family: Arial, sans-serif;
-    text-align: center; /* Center-align text within the body */
+    text-align: center;
+    /* Center-align text within the body */
 }
 
 header {
@@ -10,73 +11,127 @@ header {
     text-align: center;
     padding: 20px 0;
 }
+
 /* Style for the page title (h1) */
 h1 {
-    color: #000000; /* Set the text color of the title to a dark gray (#333) */
+    color: #000000;
+    /* Set the text color of the title to a dark gray (#333) */
 }
 
 /* Styling for the game container */
 .game {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack child elements vertically */
-    align-items: center; /* Center-align child elements horizontally */
-    margin-top: 20px; /* Add some space at the top of the game container */
+    display: flex;
+    /* Use flexbox for layout */
+    flex-direction: column;
+    /* Stack child elements vertically */
+    align-items: center;
+    /* Center-align child elements horizontally */
+    margin-top: 20px;
+    /* Add some space at the top of the game container */
 }
 
 /* Styling for the game choices container */
 .choices {
-    display: flex; /* Use flexbox to arrange choices horizontally */
-    gap: 10px; /* Add 10px of space between choice buttons */
-    margin-bottom: 20px; /* Add some space at the bottom of the choices container */
+    display: flex;
+    /* Use flexbox to arrange choices horizontally */
+    gap: 10px;
+    /* Add 10px of space between choice buttons */
+    margin-bottom: 20px;
+    /* Add some space at the bottom of the choices container */
 }
 
 /* Styling for the choice buttons */
 .choice {
-    font-size: 16px; /* Set the font size for choice buttons */
-    padding: 10px 20px; /* Add padding around the text within choice buttons */
-    background-color: #3498db; /* Set the background color of choice buttons to a shade of blue (#3498db) */
-    color: #fff; /* Set the text color within choice buttons to white (#fff) */
-    border: none; /* Remove borders around choice buttons */
-    cursor: pointer; /* Change the cursor to a pointer when hovering over choice buttons */
+    font-size: 16px;
+    /* Set the font size for choice buttons */
+    padding: 10px 20px;
+    /* Add padding around the text within choice buttons */
+    background-color: #adbceb;
+    /* Set the background color of choice buttons to a shade of blue (#3498db) */
+    color: #fff;
+    /* Set the text color within choice buttons to white (#fff) */
+    border: none;
+    /* Remove borders around choice buttons */
+    cursor: pointer;
+    /* Change the cursor to a pointer when hovering over choice buttons */
 }
 
 /* Hover effect for choice buttons */
 .choice:hover {
-    background-color: #2980b9; /* Darken the background color of choice buttons on hover */
+    background-color: #2980b9;
+    /* Darken the background color of choice buttons on hover */
 }
 
 /* Styling for the result text */
 .resultText {
-    font-size: 20px; /* Set the font size for result text */
-    font-weight: bold; /* Make the result text bold */
-    margin-bottom: 10px; /* Add some space at the bottom of the result text */
+    font-size: 20px;
+    /* Set the font size for result text */
+    font-weight: bold;
+    /* Make the result text bold */
+    margin-bottom: 10px;
+    /* Add some space at the bottom of the result text */
 }
 
 /* Styling for the game score display */
 .score {
-    font-size: 18px; /* Set the font size for the game score */
-    font-weight: bold; /* Make the game score text bold */
+    font-size: 18px;
+    /* Set the font size for the game score */
+    font-weight: bold;
+    /* Make the game score text bold */
 }
 
 /* Styling for the "Play Again" button */
 .playAgainButton {
-    font-size: 16px; /* Set the font size for the "Play Again" button */
-    padding: 10px 20px; /* Add padding around the text within the button */
-    background-color: #27ae60; /* Set the background color of the button to a shade of green (#27ae60) */
-    color: #fff; /* Set the text color within the button to white (#fff) */
-    border: none; /* Remove borders around the button */
-    cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
-    margin-top: 20px; /* Add some space at the top of the button */
+    font-size: 16px;
+    /* Set the font size for the "Play Again" button */
+    padding: 10px 20px;
+    /* Add padding around the text within the button */
+    background-color: #27ae60;
+    /* Set the background color of the button to a shade of green (#27ae60) */
+    color: #fff;
+    /* Set the text color within the button to white (#fff) */
+    border: none;
+    /* Remove borders around the button */
+    cursor: pointer;
+    /* Change the cursor to a pointer when hovering over the button */
+    margin-top: 20px;
+    /* Add some space at the top of the button */
 }
 
 /* Hover effect for the "Play Again" button */
 .playAgainButton:hover {
-    background-color: #219d54; /* Darken the background color of the button on hover */
+    background-color: #219d54;
+    /* Darken the background color of the button on hover */
 }
 
 /* Styling for the computer's choice display */
 .computerChoice {
-    font-size: 16px; /* Set the font size for the computer's choice text */
-    font-weight: bold; /* Make the computer's choice text bold */
-    margin-top: 10px; /* Add some space at the top of the computer's choice text */
+    font-size: 16px;
+    /* Set the font size for the computer's choice text */
+    font-weight: bold;
+    /* Make the computer's choice text bold */
+    margin-top: 10px;
+    /* Add some space at the top of the computer's choice text */
+}
+
+/* styles.css (or include in the <style> tag in the <head> section) */
+
+footer {
+    background-color: #adbceb;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
 }
