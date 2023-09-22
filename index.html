@@ -22,40 +22,42 @@
             computer!</p>
     </header>
 
+    <main>
+        <div class="game">
+            <!-- Container for the entire game -->
+            <div class="choices">
+                <!-- Container for the game choices (Rock, Paper, Scissors, Lizard, Spock) -->
+                <button class="choice" id="rock">Rock</button>
+                <!-- Button for choosing "Rock" -->
+                <button class="choice" id="paper">Paper</button>
+                <!-- Button for choosing "Paper" -->
+                <button class="choice" id="scissors">Scissors</button>
+                <!-- Button for choosing "Scissors" -->
+                <button class="choice" id="lizard">Lizard</button>
+                <!-- Button for choosing "Lizard" -->
+                <button class="choice" id="spock">Spock</button>
+                <!-- Button for choosing "Spock" -->
+            </div>
 
-    <div class="game">
-        <!-- Container for the entire game -->
-        <div class="choices">
-            <!-- Container for the game choices (Rock, Paper, Scissors, Lizard, Spock) -->
-            <button class="choice" id="rock">Rock</button>
-            <!-- Button for choosing "Rock" -->
-            <button class="choice" id="paper">Paper</button>
-            <!-- Button for choosing "Paper" -->
-            <button class="choice" id="scissors">Scissors</button>
-            <!-- Button for choosing "Scissors" -->
-            <button class="choice" id="lizard">Lizard</button>
-            <!-- Button for choosing "Lizard" -->
-            <button class="choice" id="spock">Spock</button>
-            <!-- Button for choosing "Spock" -->
+            <div class="result">
+                <!-- Container for displaying the game result -->
+                <p class="resultText">Make your choice...</p>
+                <!-- Placeholder text for user instructions -->
+                <p class="computerChoice"></p>
+                <!-- Placeholder for displaying the computer's choice -->
+            </div>
+
+            <div class="score">
+                <!-- Container for displaying the game score -->
+                <p>Score: <span id="score">0 - 0</span></p>
+                <!-- Initial score display -->
+            </div>
+
+            <button class="playAgainButton" id="playAgain">Play Again</button>
+            <!-- Button to restart the game -->
+            </=>
         </div>
-
-        <div class="result">
-            <!-- Container for displaying the game result -->
-            <p class="resultText">Make your choice...</p>
-            <!-- Placeholder text for user instructions -->
-            <p class="computerChoice"></p>
-            <!-- Placeholder for displaying the computer's choice -->
-        </div>
-
-        <div class="score">
-            <!-- Container for displaying the game score -->
-            <p>Score: <span id="score">0 - 0</span></p>
-            <!-- Initial score display -->
-        </div>
-
-        <button class="playAgainButton" id="playAgain">Play Again</button>
-        <!-- Button to restart the game -->
-    </div>
+    </main>
 
     <footer>
         <div class="container">
