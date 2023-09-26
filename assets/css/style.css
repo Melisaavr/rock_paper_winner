@@ -13,18 +13,26 @@ body {
     /* Center-align text within the body */
 }
 
+/* Style the header container */
 header {
-    background-color: #adbceb;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    background-color: #adbceb; /* Background color for the header */
+    color: #fff; /* Text color */
+    text-align: center; /* Center-align text within the header */
+    padding: 20px; /* Add some padding around the content for spacing */
 }
 
-/* Style for the page title (h1) */
+/* Style the h1 (main title) */
 h1 {
-    color: #000000;
-    /* Set the text color of the title to a dark gray (#333) */
+    font-size: 36px; /* Set the font size for the title */
+    margin: 0; /* Remove any default margin */
 }
+
+/* Style the paragraph text */
+p {
+    font-size: 18px; /* Set the font size for the paragraph */
+    margin-top: 10px; /* Add some top margin to separate it from the title */
+}
+
 
 /* Styling for the game container */
 .game {
