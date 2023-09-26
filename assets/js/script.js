@@ -12,17 +12,18 @@ const resultText = document.querySelector(".resultText");
 let playerScore = 0;
 let computerScore = 0;
 let currentRound = 1;
-let gameOver = false;
-
+let gameOver = false
 // Hide the "Play Again" button initially
 document.getElementById("playAgain").style.display = "none";
-
-// Function to generate a random computer choice
+/**
+*Function to generate a random computer choice
+*/
 function computerChoice() {
     return choices[randomIndex];
 }
-
-// Function to play a round of the game
+/** 
+* Function to play a round of the game
+*/
 function playGame(playerChoice) {
     if (gameOver) return;
 
@@ -63,7 +64,9 @@ function playGame(playerChoice) {
     }
 }
 
-// Function to handle the end of the game
+/**
+ * Function to handle the end of the game
+ */
 function endGame() {
     
 
@@ -102,7 +105,9 @@ playAgainButton.addEventListener("click", () => {
     resetGame();
 });
 
-// Function to reset the game state
+/** 
+ * Function to reset the game state
+ */
 function resetGame() {
     playerScore = 0;
     computerScore = 0;

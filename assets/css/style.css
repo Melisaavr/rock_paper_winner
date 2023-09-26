@@ -1,14 +1,15 @@
-/* Reset some default styles to make the page consistent */
-body, h1, p {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Set a background color for the body */
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
-    min-height: 100vh; /* Ensure the body takes up at least the viewport height */
+    min-height: 100vh;
+    /* Ensure the body takes up at least the viewport height */
     display: flex;
     flex-direction: column;
 }
@@ -23,7 +24,8 @@ header {
 
 /* Style the main content */
 main {
-    flex-grow: 1; /* Allow the main content to grow and push the footer to the bottom */
+    flex-grow: 1;
+    /* Allow the main content to grow and push the footer to the bottom */
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -44,7 +46,7 @@ button:disabled,
 button[disabled],
 button:disabled:hover,
 button:disabled:hover {
-    border: 1px solid #999999;  
+    border: 1px solid #999999;
     background-color: #cccccc;
     color: #666666
 }
@@ -53,7 +55,7 @@ button:disabled:hover {
 /* Style the game choices */
 .choices {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 20px;
     flex-wrap: wrap;
 }

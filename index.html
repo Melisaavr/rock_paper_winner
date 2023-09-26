@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 
 <head>
@@ -8,14 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content=" JavaScript-based web application allows you to play an extended version of the classic Rock, Paper, Scissors game against a computer opponent. " />
-    <meta name="keywords" content="game, computer, opponent, winner" />
-    <meta name="author" content="Melisa Dayicik" />
+        content=" JavaScript-based web application allows you to play an extended version of the classic Rock, Paper, Scissors game against a computer opponent. ">
+    <meta name="keywords" content="game, computer, opponent, winner">
+    <meta name="author" content="Melisa Dayicik">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Rock Paper Scissors Game</title>
 </head>
 
 <body>
+    <!-- site header and explanation-->
     <header>
         <h1> Rock Paper Winner </h1>
         <p>Welcome to the thrilling world of online Rock, Paper, Scissors! Choose your move and see if you can beat the
@@ -23,39 +24,30 @@
     </header>
 
     <main>
+        <!-- Container for the entire game -->
         <div class="game">
-            <!-- Container for the entire game -->
+            <!-- Container for the game choices (Rock, Paper, Scissors, Lizard, Spock) -->
             <div class="choices">
-                <!-- Container for the game choices (Rock, Paper, Scissors, Lizard, Spock) -->
                 <button class="choice" id="rock">Rock</button>
-                <!-- Button for choosing "Rock" -->
                 <button class="choice" id="paper">Paper</button>
-                <!-- Button for choosing "Paper" -->
                 <button class="choice" id="scissors">Scissors</button>
-                <!-- Button for choosing "Scissors" -->
                 <button class="choice" id="lizard">Lizard</button>
-                <!-- Button for choosing "Lizard" -->
                 <button class="choice" id="spock">Spock</button>
-                <!-- Button for choosing "Spock" -->
             </div>
-
+            <!-- Container for displaying the game result -->
             <div class="result">
-                <!-- Container for displaying the game result -->
-                <p class="resultText">Make your choice...</p>
                 <!-- Placeholder text for user instructions -->
-                <p class="computerChoice"></p>
+                <p class="resultText">Make your choice...</p>
                 <!-- Placeholder for displaying the computer's choice -->
+                <p class="computerChoice"></p>
             </div>
-
+            <!-- Container for displaying the game score -->
             <div class="score">
-                <!-- Container for displaying the game score -->
-                <p>Score: <span id="score">0 - 0</span></p>
                 <!-- Initial score display -->
+                <p>Score: <span id="score">0 - 0</span></p>
             </div>
-
-            <button class="playAgainButton" id="playAgain">Play Again</button>
             <!-- Button to restart the game -->
-            </=>
+            <button class="playAgainButton" id="playAgain">Play Again</button>
         </div>
     </main>
 
