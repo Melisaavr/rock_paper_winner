@@ -36,13 +36,26 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
+
+button:disabled,
+button[disabled],
+button:disabled:hover,
+button:disabled:hover {
+    border: 1px solid #999999;  
+    background-color: #cccccc;
+    color: #666666
+}
+
 
 /* Style the game choices */
 .choices {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .choice {
