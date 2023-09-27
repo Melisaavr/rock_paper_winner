@@ -12,7 +12,7 @@ const resultText = document.querySelector(".resultText");
 let playerScore = 0;
 let computerScore = 0;
 let currentRound = 1;
-let gameOver = false
+let gameOver = false;
 // Hide the "Play Again" button initially
 document.getElementById("playAgain").style.display = "none";
 /**
