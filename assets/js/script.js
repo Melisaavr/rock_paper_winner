@@ -1,7 +1,6 @@
 // Define an array of game choices
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 const randomIndex = Math.floor(Math.random() * choices.length);
-const computer = computerChoice();
 const computerChoiceDisplay = document.querySelector(".computerChoice");
 const scoreDisplay = document.getElementById("score");
 const buttons = document.querySelectorAll(".choice");
@@ -9,6 +8,7 @@ const playAgainButton = document.getElementById("playAgain");
 const resultText = document.querySelector(".resultText");
 
 // Initialize player and computer scores, current round, and game state
+let computer;
 let playerScore = 0;
 let computerScore = 0;
 let currentRound = 1;
