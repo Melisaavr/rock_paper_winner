@@ -26,7 +26,8 @@ function computerChoice() {
 */
 function playGame(playerChoice) {
     if (gameOver) return;
-
+function computerChoice() {
+    computer = choices[Math.floor(Math.random() * choices.length)];
 
     // Display the computer's choice
     computerChoiceDisplay.textContent = `Computer chose ${computer}.`;
