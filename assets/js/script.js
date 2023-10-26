@@ -28,7 +28,8 @@ function playGame(playerChoice) {
     if (gameOver) return;
 function computerChoice() {
     computer = choices[Math.floor(Math.random() * choices.length)];
-
+    return computer
+}
     // Display the computer's choice
     computerChoiceDisplay.textContent = `Computer chose ${computer}.`;
 
@@ -114,6 +115,7 @@ function resetGame() {
     computerScore = 0;
     currentRound = 1;
     gameOver = false;
+    computer = '' ;
 
 
     resultText.textContent = "Make your choice...";
