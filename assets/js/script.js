@@ -1,6 +1,5 @@
 // Define an array of game choices
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
-const randomIndex = Math.floor(Math.random() * choices.length);
 const computerChoiceDisplay = document.querySelector(".computerChoice");
 const scoreDisplay = document.getElementById("score");
 const buttons = document.querySelectorAll(".choice");
@@ -13,23 +12,27 @@ let playerScore = 0;
 let computerScore = 0;
 let currentRound = 1;
 let gameOver = false;
+
 // Hide the "Play Again" button initially
-document.getElementById("playAgain").style.display = "none";
+playAgainButton.style.display = "none";
+
 /**
-*Function to generate a random computer choice
-*/
-function computerChoice() {
+ * Function to generate a random computer choice
+ */
+function generateComputerChoice() {
+    const randomIndex = Math.floor(Math.random() * choices.length);
     return choices[randomIndex];
 }
-/** 
-* Function to play a round of the game
-*/
+
+/**
+ * Function to play a round of the game
+ */
 function playGame(playerChoice) {
     if (gameOver) return;
-function computerChoice() {
-    computer = choices[Math.floor(Math.random() * choices.length)];
-    return computer
-}
+
+    // Generate the computer's choice
+    computer = generateComputerChoice();
+
     // Display the computer's choice
     computerChoiceDisplay.textContent = `Computer chose ${computer}.`;
 
@@ -70,8 +73,6 @@ function computerChoice() {
  * Function to handle the end of the game
  */
 function endGame() {
-    
-
     if (playerScore > computerScore) {
         resultText.textContent = "Game over. You win!";
     } else if (playerScore < computerScore) {
@@ -89,7 +90,9 @@ function endGame() {
     playAgainButton.style.display = "block";
     gameOver = true;
 
-    computerChoiceDisplay.textContent = `Computer chose ${computerChoice()} in the last round.`;
+    // Display the computer's choice for the last round
+    const lastComputerChoice = generateComputerChoice();
+    computerChoiceDisplay.textContent = `Computer chose ${lastComputerChoice} in the last round.`;
 }
 
 // Add click event listeners to choice buttons to play the game
@@ -107,7 +110,7 @@ playAgainButton.addEventListener("click", () => {
     resetGame();
 });
 
-/** 
+/**
  * Function to reset the game state
  */
 function resetGame() {
@@ -115,8 +118,7 @@ function resetGame() {
     computerScore = 0;
     currentRound = 1;
     gameOver = false;
-    computer = '' ;
-
+    computer = '';
 
     resultText.textContent = "Make your choice...";
     scoreDisplay.textContent = "0 - 0";
