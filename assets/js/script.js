@@ -69,6 +69,21 @@ function playGame(playerChoice) {
     }
 }
 
+// Update and display the score
+function updateScore() {
+  document.getElementById("player1-score").textContent = playerScore;
+  document.getElementById("computer-score").textContent = computerScore;
+}
+
+// Function to handle the end of the game
+function endGame() {
+
+  // Update and display the final score
+  updateScore();
+}
+
+
+
 /**
  * Function to handle the end of the game
  */
