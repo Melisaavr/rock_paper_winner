@@ -79,9 +79,17 @@ Accessibility - passed using lighthouse in devtools.
 
 ## Technologies Used
 HTML- was used as the foundation of the site.
+
+
 CSS - was used to add the styles and layout of the site.
+
+
 JS - was used to add interactivity to the site.
+
+
 VSCode was used as the main tool to write and edit code.
+
+
 GitHub was used to host the code of the website.
 
 ## Deployment
