@@ -23,6 +23,35 @@ header {
 }
 
 /* Style the main content */
+/* CSS for fade-in and fade-out animations */
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out forwards;
+    opacity: 0;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s ease-in-out forwards;
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
 main {
     flex-grow: 1;
     /* Allow the main content to grow and push the footer to the bottom */

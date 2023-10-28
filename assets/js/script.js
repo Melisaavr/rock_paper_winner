@@ -16,24 +16,21 @@ let gameOver = false;
 // Hide the "Play Again" button initially
 playAgainButton.style.display = "none";
 
-/**
- * Function to generate a random computer choice
- */
+// Function to generate a random computer choice
 function generateComputerChoice() {
     const randomIndex = Math.floor(Math.random() * choices.length);
     return choices[randomIndex];
 }
 
-/**
- * Function to play a round of the game
- */
+// Function to play a round of the game
 function playGame(playerChoice) {
     if (gameOver) return;
 
     // Generate the computer's choice
     computer = generateComputerChoice();
 
-    // Display the computer's choice
+    // Display the computer's choice with a fade-in animation
+    computerChoiceDisplay.classList.remove("fade-out");
     computerChoiceDisplay.textContent = `Computer chose ${computer}.`;
 
     // Determine the round result
@@ -46,12 +43,15 @@ function playGame(playerChoice) {
         (playerChoice === "lizard" && (computer === "spock" || computer === "paper")) ||
         (playerChoice === "spock" && (computer === "rock" || computer === "scissors"))
     ) {
-        resultText.textContent = `You win!`;
+        resultText.textContent = "You win!";
         playerScore++;
     } else {
-        resultText.textContent = `Computer wins!`;
+        resultText.textContent = "Computer wins!";
         computerScore++;
     }
+
+    // Add a fade-in animation to the result text
+    resultText.classList.remove("fade-out");
 
     // Update and display the score
     scoreDisplay.textContent = `${playerScore} - ${computerScore}`;
@@ -60,9 +60,15 @@ function playGame(playerChoice) {
     // If the game is not over, reset the text and choices for the next round after a delay
     if (currentRound <= 3) {
         setTimeout(() => {
-            resultText.textContent = "Make your choice...";
-            computerChoiceDisplay.textContent = "";
-        }, 3000); // Delay for 3 seconds
+            // Add a fade-out animation before resetting
+            resultText.classList.add("fade-out");
+            computerChoiceDisplay.classList.add("fade-out");
+
+            setTimeout(() => {
+                resultText.textContent = "Make your choice...";
+                computerChoiceDisplay.textContent = "";
+            }, 500); // Delay for 0.5 seconds
+        }, 2000); // Delay for 2 seconds
     } else {
         // If the game is over, call the endGame function
         endGame();
@@ -71,15 +77,15 @@ function playGame(playerChoice) {
 
 // Update and display the score
 function updateScore() {
-  document.getElementById("player1-score").textContent = playerScore;
-  document.getElementById("computer-score").textContent = computerScore;
+    document.getElementById("player1-score").textContent = playerScore;
+    document.getElementById("computer-score").textContent = computerScore;
 }
 
 // Function to handle the end of the game
 function endGame() {
 
-  // Update and display the final score
-  updateScore();
+    // Update and display the final score
+    updateScore();
 }
 
 
