@@ -5,14 +5,14 @@ This web application is a fun and interactive way to test your decision-making s
 
 Link to deployed website: https://melisaavr.github.io/rock_paper_winner/
 
-![Alt text](responsiveness.png)
+![Responsiveness](responsiveness_png)
 
 ## Features
 
 ### Header
 It is simple and gets straight to the point with a clear explanation on what the game is about. 
 
-![Alt text](header.png)
+![image of header](header_png)
 
 ### Gaming Zone
 Random Computer Choices: The computer makes random selections to keep the game exciting and unpredictable.
@@ -32,11 +32,11 @@ It compares the player's choice to the computer's choice and determines the roun
 The result is displayed in the `resultText` element, and scores are updated in the `scoreDisplay`.
 Players can play up to three rounds before reaching the end of the game.
 
-![Alt text](game.png)
+![Game](gamee_png)
 
 ### Footer
 The footer usually provides navigations and contact details, however, in this case, a rock paper scissors game does not require any extra navigations or contact details. This footer is simply for aesthetic reasons. 
-![Alt text](footer.png)
+![image of footer](footer_png)
 
 ## Testing
 All tests have been carried out and the page works in browsers such as google chrome and Firefox.
@@ -49,22 +49,40 @@ The navigation, header and the whole website in general are easy to read and use
 ### Solved Bugs: 
 Removing repeated code. Certain code has been repeated up to 3 times. 
 
+Repeated choices by the computer - I have used const computerChice instead of let, this led to the computer always giving the same answers. I have fixed this. 
+
+Computer chose "undefined" when displaying game choices. I have changed "computerChoice" to "generateComputerChoice" to avoid naming conflicts and ensure the computer's choice is generated and displayed correctly. 
+
+Removed spaces between images used for read me by adding "_".
+
+
+### Unsolved Bugs: 
+None
+
 ## Validator Testing
 HTML - No errors visible with W3C HTML validator
-![Alt text](<html validator.png>)
+![html validator](<html_validator_png>)
 
 CSS- No errors visible with W3C CSS validator (jigsaw)
-![Alt text](<css validator.png>)
+![css validator](<css_validator_png>)
 
 Javascript Validator - JS Hint - No Errors Found
-![Alt text](<js validator.png>)
+![Javascript validator](<js_validator_png>)
 Warning was fixed. 
 
 Accessibility - passed using lighthouse in devtools.
-![Alt text](accesibility.png)
+![accesibility](accesibility_png)
 
 ## Thought Process Formation
-![Alt text](<thought process.png>)
+![flowchart](flowchartt_png)
+
+
+## Technologies Used
+HTML- was used as the foundation of the site.
+CSS - was used to add the styles and layout of the site.
+JS - was used to add interactivity to the site.
+VSCode was used as the main tool to write and edit code.
+GitHub was used to host the code of the website.
 
 ## Deployment
 GitHub Pages were used to host the website. The following are the deployment steps: Go to the Settings tab in the GitHub repository. Click "Save" after selecting the Main Branch from the drop-down menu for the source section. The page will automatically reload with a thorough ribbon display to show that the deployment was successful.

@@ -1,3 +1,4 @@
+/* jshint esversion:9 */
 // Define an array of game choices
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 const computerChoiceDisplay = document.querySelector(".computerChoice");
