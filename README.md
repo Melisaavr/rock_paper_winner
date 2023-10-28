@@ -105,3 +105,5 @@ Footer:
 
 https://materializecss.com/footer.html
 
+Thank you to Git Hub and VsCode for making it easy to code and deploy my projects effortlessly. 
+
