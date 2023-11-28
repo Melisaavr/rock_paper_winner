@@ -5,14 +5,15 @@ This web application is a fun and interactive way to test your decision-making s
 
 Link to deployed website: https://melisaavr.github.io/rock_paper_winner/
 
-![Responsiveness](responsiveness_png)
+Responsiveness: 
+![Alt text](assets/documentation/responsiveness.png)
 
 ## Features
 
 ### Header
 It is simple and gets straight to the point with a clear explanation on what the game is about. 
 
-![image of header](header_png)
+![Alt text](assets/documentation/header.png)
 
 ### Gaming Zone
 Random Computer Choices: The computer makes random selections to keep the game exciting and unpredictable.
@@ -32,11 +33,11 @@ It compares the player's choice to the computer's choice and determines the roun
 The result is displayed in the `resultText` element, and scores are updated in the `scoreDisplay`.
 Players can play up to three rounds before reaching the end of the game.
 
-![Game](gamee_png)
+![Alt text](assets/documentation/gamee.png)
 
 ### Footer
 The footer usually provides navigations and contact details, however, in this case, a rock paper scissors game does not require any extra navigations or contact details. This footer is simply for aesthetic reasons. 
-![image of footer](footer_png)
+![Alt text](assets/documentation/footer.png)
 
 ## Testing
 All tests have been carried out and the page works in browsers such as google chrome and Firefox.
@@ -61,20 +62,20 @@ None
 
 ## Validator Testing
 HTML - No errors visible with W3C HTML validator
-![html validator](<html_validator_png>)
+![Alt text](<assets/documentation/html validator.png>)
 
 CSS- No errors visible with W3C CSS validator (jigsaw)
-![css validator](<css_validator_png>)
+![Alt text](<assets/documentation/css validator.png>)
 
 Javascript Validator - JS Hint - No Errors Found
-![Javascript validator](<js_validator_png>)
+![Alt text](<assets/documentation/js validator.png>)
 Warning was fixed. 
 
 Accessibility - passed using lighthouse in devtools.
-![accesibility](accesibility_png)
+![Alt text](assets/documentation/accesibility.png)
 
 ## Thought Process Formation
-![flowchart](flowchartt_png)
+![Alt text](assets/documentation/flowchartt.png)
 
 
 ## Technologies Used
