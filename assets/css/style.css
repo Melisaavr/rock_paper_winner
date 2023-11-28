@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+.choice {
+    text-align: center;
+  }
+  
+  .choice img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+    display: block;
+    margin: 5px auto 0; /* Adjust the margin to provide spacing between text and image */
+  }
+  
+  
+  
+
 /* Set a background color for the body */
 body {
     background-color: #f0f0f0;

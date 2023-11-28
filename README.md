@@ -8,6 +8,13 @@ Link to deployed website: https://melisaavr.github.io/rock_paper_winner/
 Responsiveness: 
 ![Alt text](assets/documentation/responsiveness.png)
 
+
+
+## First time Visitor Goals
+* As a first time visitor, I want to understand what I must do to play the game. 
+* As a first time visitor, I want to know when I have won or have been defeated by the computer which I am playing against. 
+
+
 ## Features
 
 ### Header
@@ -79,19 +86,12 @@ Accessibility - passed using lighthouse in devtools.
 
 
 ## Technologies Used
-HTML- was used as the foundation of the site.
-
-
-CSS - was used to add the styles and layout of the site.
-
-
-JS - was used to add interactivity to the site.
-
-
-VSCode was used as the main tool to write and edit code.
-
-
-GitHub was used to host the code of the website.
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)- was used as the foundation of the site.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/css-) was used to add the styles and layout of the site.
+* [JS](https://www.w3schools.com/js/) - was used to add interactivity to the site.
+* [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
+* [GitHub](https://github.com/) was used to host the code of the website.
+* [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)- was used to arrange items symmetrically on the pages.
 
 ## Deployment
 GitHub Pages were used to host the website. The following are the deployment steps: Go to the Settings tab in the GitHub repository. Click "Save" after selecting the Main Branch from the drop-down menu for the source section. The page will automatically reload with a thorough ribbon display to show that the deployment was successful.
