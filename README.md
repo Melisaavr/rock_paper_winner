@@ -148,6 +148,11 @@ Warning was fixed.
 Accessibility - passed using lighthouse in devtools.
 ![Accesibility](<assets/documentation/accesibility new.png>)
 
+## Local Deployment
+* In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+> git clone https://github.com/Melisaavr/rock_paper_winner.git
+
 ## Thought Process Formation
 ![Flowchart](assets/documentation/flowchartt.png)
 
