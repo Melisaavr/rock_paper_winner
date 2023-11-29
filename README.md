@@ -47,9 +47,76 @@ The footer usually provides navigations and contact details, however, in this ca
 ![footer](assets/documentation/footer.png)
 
 ## Testing
-All tests have been carried out and the page works in browsers such as google chrome and Firefox.
+All tests have been carried out and the page works in browsers such as google chrome and microsoft edge. 
+* Microsoft Edge: 
+![Alt text](<assets/documentation/microsoft edge testing.png>)
+
+* Google Chrome: 
+![Alt text](<assets/documentation/chrome testing.png>)
+
+
 
 Responsiveness: responsiveness test passed.
+The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/)
+
+i. Mobile Screens
+
+* Mobile 320 x 480
+![Alt text](<assets/documentation/responsiveness mobile 320 480.png>)
+
+* Mobile 320 x 568
+![Alt text](<assets/documentation/responsiveness mobile 320 568.png>)
+
+* Mobile 360 x 640 
+![Alt text](<assets/documentation/responsiveness mobile 360 640.png>)
+
+* Mobile 375 x 667
+![Alt text](<assets/documentation/responsiveness mobile 375 667.png>)
+
+* Mobile 411 x 731
+![Alt text](<assets/documentation/responsiveness mobile 411 731.png>)
+
+* Mobile 414 x 736
+![Alt text](<assets/documentation/responsiveness mobile 414 736.png>)
+
+ii. Tablet Screens
+
+* Tablet 600 x 960
+![Alt text](<assets/documentation/responsiveness ipad 600 960.png>)
+
+* Tablet 1024 x 768
+![Alt text](<assets/documentation/responsiveness ipad 1024 768.png>)
+
+* Tablet 1366 x 1024
+![Alt text](<assets/documentation/responsiveness ipad 1366 1024.png>)
+
+* Tablet 768 x 1024
+![Alt text](<assets/documentation/responsivess ipad 768 1024.png>)
+
+iii. Desktop Screens
+* Desktop 1024 x 600
+![Alt text](<assets/documentation/responsiveness desktop 1024 600.png>)
+
+* Desktop 1024 x 800
+![Alt text](<assets/documentation/responsiveness desktop 1024 800.png>)
+
+* Desktop 1366 x 768
+![Alt text](<assets/documentation/responsiveness desktop 1366 768.png>)
+
+* Desktop 1440 x 900
+![Alt text](<assets/documentation/responsiveness desktop 1440 900.png>)
+
+* Desktop 1600 x 900 
+![Alt text](<assets/documentation/responsiveness desktop 1600 900.png>)
+
+* Desktop 1680 x 1050
+![Alt text](<assets/documentation/responsiveness desktop 1680 1050.png>)
+
+* Desktop 1920 x 1080
+![Alt text](<assets/documentation/responsiveness desktop 1920 1080.png>)
+
+* Desktop 1920 x 1200 
+![Alt text](<assets/documentation/responsiveness desktop 1920 1200.png>)
 
 The navigation, header and the whole website in general are easy to read and use.
 
@@ -106,5 +173,4 @@ Footer:
 
 https://materializecss.com/footer.html
 
-Thank you to Git Hub and VsCode for making it easy to code and deploy my projects effortlessly. 
-
+Thank you to Git Hub and VsCode for making it easy to code and deploy my projects effortlessly
