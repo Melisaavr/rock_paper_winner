@@ -40,7 +40,7 @@ It compares the player's choice to the computer's choice and determines the roun
 The result is displayed in the `resultText` element, and scores are updated in the `scoreDisplay`.
 Players can play up to three rounds before reaching the end of the game.
 
-![game zone](assets/documentation/gamee.png)
+![Alt text](<assets/documentation/gaming zone 1.png>)
 
 ### Footer
 The footer usually provides navigations and contact details, however, in this case, a rock paper scissors game does not require any extra navigations or contact details. This footer is simply for aesthetic reasons. 
