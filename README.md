@@ -110,41 +110,41 @@ i. Mobile Screens
 ii. Tablet Screens
 
 * Tablet 600 x 960
-![Alt text](<assets/documentation/responsiveness ipad 600 960.png>)
+![Tablet 600 x 960](documentation/images/tablet_600_960.png)
 
 * Tablet 1024 x 768
-![Alt text](<assets/documentation/responsiveness ipad 1024 768.png>)
+![Tablet 1024 x 768](documentation/images/tablet_1024_768.png)
 
 * Tablet 1366 x 1024
-![Alt text](<assets/documentation/responsiveness ipad 1366 1024.png>)
+![Tablet 1366 x 1024](documentation/images/tablet_1366_1024.png)
 
 * Tablet 768 x 1024
-![Alt text](<assets/documentation/responsivess ipad 768 1024.png>)
+![Tablet 768 x 1024](documentation/images/tablet_768_1024.png)
 
 iii. Desktop Screens
 * Desktop 1024 x 600
-![Alt text](<assets/documentation/responsiveness desktop 1024 600.png>)
+![Desktop 1024 x 600](documentation/images/desktop_1024_600.png)
 
 * Desktop 1024 x 800
-![Alt text](<assets/documentation/responsiveness desktop 1024 800.png>)
+![Desktop 1024 x 800](documentation/images/Desktop_1024_800.png)
 
 * Desktop 1366 x 768
-![Alt text](<assets/documentation/responsiveness desktop 1366 768.png>)
+![Desktop 1366 x 768](documentation/images/Desktop_1366_768.png)
 
 * Desktop 1440 x 900
-![Alt text](<assets/documentation/responsiveness desktop 1440 900.png>)
+![Desktop 1440 x 900](documentation/images/Desktop_1440_900.png)
 
 * Desktop 1600 x 900 
-![Alt text](<assets/documentation/responsiveness desktop 1600 900.png>)
+![Desktop 1600 x 900](documentation/images/Desktop_1600_900.png)
 
 * Desktop 1680 x 1050
-![Alt text](<assets/documentation/responsiveness desktop 1680 1050.png>)
+![Desktop 1680 x 1050](documentation/images/Desktop_1680_1050.png)
 
 * Desktop 1920 x 1080
-![Alt text](<assets/documentation/responsiveness desktop 1920 1080.png>)
+![Desktop 1920 x 1080](documentation/images/Desktop_1920_1080.png)
 
 * Desktop 1920 x 1200 
-![Alt text](<assets/documentation/responsiveness desktop 1920 1200.png>)
+![Desktop 1920 x 1200](documentation/images/Desktop_1920_1200.png)
 
 The navigation, header and the whole website in general are easy to read and use.
 
@@ -164,20 +164,20 @@ None
 
 ## Validator Testing
 HTML - No errors visible with W3C HTML validator
-![HTML validator](<assets/documentation/html validator.png>)
+![HTML validator](documentation/images/html_validator.png)
 
 CSS- No errors visible with W3C CSS validator (jigsaw)
-![CSS validator](<assets/documentation/css validator.png>)
+![css validator](documentation/images/css_validator.png)
 
 Javascript Validator - JS Hint - No Errors Found
-![Javascript Validator](<assets/documentation/js validator.png>)
+![Javascript validator](documentation/images/js_validator.png)
 Warning was fixed. 
 
 Accessibility - passed using lighthouse in devtools.
-![Accesibility](<assets/documentation/accesibility new.png>)
+![Accesibility](documentation/images/accesibility_new.png)
 
 ## Thought Process Formation
-![Flowchart](assets/documentation/flowchartt.png)
+![Flowchart](documentation/images/flowchartt.png)
 
 
 ## Technologies Used
