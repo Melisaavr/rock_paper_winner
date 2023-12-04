@@ -47,6 +47,9 @@ The footer usually provides navigations and contact details, however, in this ca
 ![footer](assets/documentation/footer.png)
 
 ## Testing
+
+
+### Compatibility
 All tests have been carried out and the page works in browsers such as google chrome and microsoft edge. 
 * Microsoft Edge: 
 ![Alt text](<assets/documentation/microsoft edge testing.png>)
