@@ -179,7 +179,7 @@ Gray is often associated with neutrality and can be used as a neutral background
 ![Lighter Gray](documentation/images/999999_colour.png)
 Lighter gray used to balance the overall color palette and prevent it from becoming too overwhelming. When the button is disabled and no longer in use, it turns lighter gray to notify the user that the game is over. This is so that it is not so confusing and straight forward. 
 
-
+Font used: Arial Sans Serif - Its simple, uniform strokes make it easy to read even at smaller sizes.
 
 
 
