@@ -6,7 +6,7 @@ This web application is a fun and interactive way to test your decision-making s
 Link to deployed website: https://melisaavr.github.io/rock_paper_winner/
 
 Responsiveness: 
-![Responsiveness](assets/documentation/responsiveness.png)
+![Responsiveness](documentation/images/responsive_view.png)
 
 
 
