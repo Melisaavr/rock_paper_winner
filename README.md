@@ -14,6 +14,31 @@ Responsiveness:
 * As a first time visitor, I want to understand what I must do to play the game. 
 * As a first time visitor, I want to know when I have won or have been defeated by the computer which I am playing against. 
 
+## Rules 
+
+The Rock, Paper, Scissors, Lizard, Spock game is an extended version of the classic Rock, Paper, Scissors game and was popularized by the TV show "The Big Bang Theory." The rules are as follows:
+
+* Rock crushes Scissors: Rock wins against Scissors because a rock can crush scissors.
+
+* Scissors cuts Paper: Scissors wins against Paper because scissors can cut paper.
+
+* Paper covers Rock: Paper wins against Rock because paper can cover rock.
+
+* Rock crushes Lizard: Rock wins against Lizard because a rock can crush a lizard.
+
+* Lizard poisons Spock: Lizard wins against Spock because a lizard can poison Spock.
+
+* Spock smashes Scissors: Spock wins against Scissors because Spock can smash scissors.
+
+* Scissors decapitates Lizard: Scissors wins against Lizard because scissors can decapitate a lizard.
+
+* Lizard eats Paper: Lizard wins against Paper because a lizard can eat paper.
+
+* Paper disproves Spock: Paper wins against Spock because paper can disprove Spock.
+
+* Spock vaporizes Rock: Spock wins against Rock because Spock can vaporize a rock.
+
+The game adds more variety and complexity to the traditional Rock, Paper, Scissors game by introducing additional elements and interactions. Each element can defeat two other elements, lose to two other elements, and tie with one element, creating a more intricate set of relationships.
 
 ## Features
 
@@ -180,9 +205,6 @@ Gray is often associated with neutrality and can be used as a neutral background
 Lighter gray used to balance the overall color palette and prevent it from becoming too overwhelming. When the button is disabled and no longer in use, it turns lighter gray to notify the user that the game is over. This is so that it is not so confusing and straight forward. 
 
 Font used: Arial Sans Serif - Its simple, uniform strokes make it easy to read even at smaller sizes.
-
-
-
 
 
 
