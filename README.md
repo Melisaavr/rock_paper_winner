@@ -45,7 +45,7 @@ The game adds more variety and complexity to the traditional Rock, Paper, Scisso
 ### Header
 It is simple and gets straight to the point with a clear explanation on what the game is about. 
 
-![Header](assets/documentation/header.png)
+![Header](documentation/images/header.png)
 
 ### Gaming Zone
 Random Computer Choices: The computer makes random selections to keep the game exciting and unpredictable.
@@ -65,11 +65,11 @@ It compares the player's choice to the computer's choice and determines the roun
 The result is displayed in the `resultText` element, and scores are updated in the `scoreDisplay`.
 Players can play up to three rounds before reaching the end of the game.
 
-![Alt text](<assets/documentation/gaming zone 1.png>)
+![Gaming Zone](documentation/images/gaming_zone.png)
 
 ### Footer
 The footer usually provides navigations and contact details, however, in this case, a rock paper scissors game does not require any extra navigations or contact details. This footer is simply for aesthetic reasons. 
-![footer](assets/documentation/footer.png)
+![Footer](documentation/images/footer.png)
 
 ## Testing
 
@@ -77,11 +77,10 @@ The footer usually provides navigations and contact details, however, in this ca
 ### Compatibility
 All tests have been carried out and the page works in browsers such as google chrome and microsoft edge. 
 * Microsoft Edge: 
-![Alt text](<assets/documentation/microsoft edge testing.png>)
+![Microsofr Egde](documentation/images/Microsoftedge_compatibility.png)
 
 * Google Chrome: 
-![Alt text](<assets/documentation/chrome testing.png>)
-
+![Google Chrome](documentation/images/googlechrome_compatibility.png)
 
 
 Responsiveness: responsiveness test passed.
@@ -90,22 +89,23 @@ The website was checked with [Responsive Website Design Tester](https://responsi
 i. Mobile Screens
 
 * Mobile 320 x 480
-![Alt text](<assets/documentation/responsiveness mobile 320 480.png>)
+![Mobile 320 x 480](documentation/images/mobile_320_480.png)
 
 * Mobile 320 x 568
-![Alt text](<assets/documentation/responsiveness mobile 320 568.png>)
+![Mobile 320 x 568](documentation/images/mobile_320_568.png)
 
 * Mobile 360 x 640 
-![Alt text](<assets/documentation/responsiveness mobile 360 640.png>)
+![Mobile 360 x 640](documentation/images/mobile_360_640.png)
 
 * Mobile 375 x 667
-![Alt text](<assets/documentation/responsiveness mobile 375 667.png>)
+![Mobile 375 x 667](documentation/images/mobile_375_667.png)
 
 * Mobile 411 x 731
-![Alt text](<assets/documentation/responsiveness mobile 411 731.png>)
+![Mobile 411 x 731](documentation/images/mobile_411_731.png)
+
 
 * Mobile 414 x 736
-![Alt text](<assets/documentation/responsiveness mobile 414 736.png>)
+![Mobile 414 x 736](documentation/images/mobile_414_736.png)
 
 ii. Tablet Screens
 
