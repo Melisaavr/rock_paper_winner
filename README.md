@@ -151,11 +151,6 @@ Warning was fixed.
 Accessibility - passed using lighthouse in devtools.
 ![Accesibility](<assets/documentation/accesibility new.png>)
 
-## Local Deployment
-* In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
-
-> git clone https://github.com/Melisaavr/rock_paper_winner.git
-
 ## Thought Process Formation
 ![Flowchart](assets/documentation/flowchartt.png)
 
@@ -169,6 +164,9 @@ Accessibility - passed using lighthouse in devtools.
 * [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)- was used to arrange items symmetrically on the pages.
 
 ## Design
+![Alt text](documentation/images/007bff.png)
+Electric Blue is a bright and vibrant shade of blue that can convey a sense of energy, modernity, and dynamism. In design and branding, the choice of color is crucial as it can influence perceptions and emotions. It is the main colour users see before making their decision against the computer.
+
 
 ## Deployment
 GitHub Pages were used to host the website. The following are the deployment steps: Go to the Settings tab in the GitHub repository. Click "Save" after selecting the Main Branch from the drop-down menu for the source section. The page will automatically reload with a thorough ribbon display to show that the deployment was successful.
