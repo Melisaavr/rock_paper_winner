@@ -164,7 +164,7 @@ Accessibility - passed using lighthouse in devtools.
 * [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)- was used to arrange items symmetrically on the pages.
 
 ## Design
-![Electric Blue](documentation/images/007bff.png)
+![Electric Blue](documentation/images/007bff_colour.png)
 Electric Blue is a bright and vibrant shade of blue that can convey a sense of energy, modernity, and dynamism. In design and branding, the choice of color is crucial as it can influence perceptions and emotions. It is the main colour users see before making their decision against the computer.
 
 ![Green](documentation/images/28a745_colour.png)
