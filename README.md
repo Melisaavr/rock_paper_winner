@@ -168,10 +168,18 @@ Accessibility - passed using lighthouse in devtools.
 * [GitHub](https://github.com/) was used to host the code of the website.
 * [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)- was used to arrange items symmetrically on the pages.
 
+## Design
+
 ## Deployment
 GitHub Pages were used to host the website. The following are the deployment steps: Go to the Settings tab in the GitHub repository. Click "Save" after selecting the Main Branch from the drop-down menu for the source section. The page will automatically reload with a thorough ribbon display to show that the deployment was successful.
 
 The link  (https://melisaavr.github.io/rock_paper_winner/) can be found here.
+
+###  Local Deployment
+* In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+> git clone https://github.com/Melisaavr/rock_paper_winner.git
+
 
 ## Credits
 How to use event listeners: 
