@@ -164,8 +164,26 @@ Accessibility - passed using lighthouse in devtools.
 * [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)- was used to arrange items symmetrically on the pages.
 
 ## Design
-![Alt text](documentation/images/007bff.png)
+![Electric Blue](documentation/images/007bff.png)
 Electric Blue is a bright and vibrant shade of blue that can convey a sense of energy, modernity, and dynamism. In design and branding, the choice of color is crucial as it can influence perceptions and emotions. It is the main colour users see before making their decision against the computer.
+
+![Green](documentation/images/28a745_colour.png)
+This specific shade of green is considered visually comfortable and are often used in design for their calming effects. This specific green might be chosen for its ability to create a positive and soothing visual experience. It is used for the "play again" button, therefore, it gives a sense of calmness before starting fresh. 
+
+![Deep Blue](documentation/images/0056b3_colour.png)
+Deeper shades of blue are often used in the technology and finance sectors, conveying a sense of reliability and trustworthiness. In this case, it is sending a message of trustworthiness before the user/player clicks on the button. This shade of blue is only used when the player is hovering over the game buttons. 
+
+![Gray](documentation/images/333333_colour.png)
+Gray is often associated with neutrality and can be used as a neutral background or base color in various designs. It is a common choice for creating a subtle and understated aesthetic. For this reason, it was used as the background colour of the game's footer. Simple and neutral. 
+
+![Lighter Gray](documentation/images/999999_colour.png)
+Lighter gray used to balance the overall color palette and prevent it from becoming too overwhelming. When the button is disabled and no longer in use, it turns lighter gray to notify the user that the game is over. This is so that it is not so confusing and straight forward. 
+
+
+
+
+
+
 
 
 ## Deployment
